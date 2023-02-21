@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -86,5 +90,80 @@
         placeholder="Qual será sua próxima leitura?"
       />
     </section>
+    <section class="carrossel">
+      <h2 class="carrossel_titulo">Novos Lançamentos</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="img/carrossel/Acessibilidade.svg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/carrossel/Angular.svg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/carrossel/ApacheKafka.svg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/carrossel/Arquitetura.svg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/carrossel/Construct2.svg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/carrossel/Gestão.svg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/carrossel/Guia Front-end.svg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/carrossel/Javascript.svg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/carrossel/Liderança.svg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/carrossel/MEAN.svg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/carrossel/MetricasAgeis.svg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/carrossel/Nodejs.svg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/carrossel/Portugol.svg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/carrossel/ReactNative.svg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/carrossel/Tuning.svg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/carrossel/UX.svg" alt="" />
+          </div>
+        </div>
+        <!-- If we need pagination -->
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+          el: ".swiper-pagination",
+          type: "bullets",
+        },
+      });
+    </script>
   </body>
 </html>
