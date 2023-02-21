@@ -11,6 +11,8 @@
     #002f52 35.49%,
     #326589 165.37%
   );
+  --book-text-darkblue: #002f52;
+
   --principal-font: "Poppins", sans-serif;
 }
 body {
