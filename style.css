@@ -9,7 +9,11 @@
     #002f52 35.49%,
     #326589 165.37%
   );
+  --principal-font: "Poppins", sans-serif;
 }
 body {
   background-color: var(--background-color);
+  font-family: var(--principal-font);
+  font-size: 1rem;
+  font-weight: 400;
 }
