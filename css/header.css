@@ -49,4 +49,5 @@
 .container__button {
   display: none;
 }
-/*BANNER*/
+@media screen and (min-width: 1024px) {
+}
